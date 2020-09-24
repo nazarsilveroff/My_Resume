@@ -1,0 +1,153 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #f5f7fa;
+	padding: 40px;
+}
+.wrapper {
+	background-color: #fff;
+	display: flex;
+	flex-direction: row;
+	max-width: 1280px;
+	margin: 0 auto;
+	box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar {
+	width: 370px;
+	background-color: #1e2939;
+	color: #fff;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.my-photo {
+	width: 370px;
+}
+.about-me-container {
+	padding: 110px 90px 110px;
+}
+.contacts-container {
+	margin: 60px 40px 0;
+}
+.title {
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 24px;
+	padding-bottom: 10px;
+}
+.contacts-link {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #434c5a;
+}
+.contacts-link-type {
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	color: #fff;
+	padding-right: 10px;
+}
+.skills-titles {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #ff6b08;
+	margin-left: 15px;
+}
+.skills-text {
+	color: #d8dadd;
+}
+.tech-skills-container {
+	margin: 55px 40px 0;
+}
+
+.soft-skills-container {
+	margin: 55px 40px 0;
+}
+.about-me-box {
+	margin-bottom: 65px;
+	margin-top: 64px;
+}
+.about-me-box > h2 {
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	color: #000000;
+	margin-bottom: 30px;
+}
+.about-me-box > h1 {
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 24px;
+	color: #000000;
+}
+.about-me-box > p {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 23px;
+	color: #595959;
+
+	margin-top: 34px;
+}
+.projects-box {
+	padding-bottom: 55px;
+}
+.projects-box > ol {
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	color: #000000;
+	margin-left: 15px;
+}
+.projects-box > ol > li > a {
+	text-decoration: none;
+}
+.projects-text {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #595959;
+}
+.profession-title {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	margin: 0 0 15px;
+}
+.yellow {
+	color: #ff6b08;
+}
+.profession-time {
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #a8a8a8;
+}
+.divider {
+	color: #000000;
+}
+.profession-description {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 23px;
+	color: #595959;
+	margin: 14px 0 30px;
+}
+.profession-description {
+	margin-left: 15px;
+}
+.department {
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 24px;
+	color: #000000;
+	margin-bottom: 10px;
+}
+.education-box {
+	margin-top: 55px;
+}
